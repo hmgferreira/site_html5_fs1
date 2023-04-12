@@ -17,3 +17,22 @@ git config --global user.email
 ALTERAR AUTOR:
 git config --global user.name "Márcio Ferreira"
 git config --global user.email "profhaeliomarcio@gmail.com"
+
+
+git init
+git add .
+git commit -m "Comentário"
+
+git branch -M main
+git remote add origin https://github.com/hmgferreira/site_html5_fs1.git
+git push -u origin main
+
+
+
+
+COMANDOS PARA PROJETOS EXISTENTES
+
+git add .
+git status
+git commit -m "Comentário"
+git push -u origin main
