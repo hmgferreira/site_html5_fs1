@@ -1,0 +1,19 @@
+MODULO:
+- GIT
+
+OBJETIVOS:
+ - CRIAR UMA CONTA NO GITHUB
+ - CRIAR UM PROJETO
+ - CRIAR UM REPOSITORIO
+ - PUBLICAR NOSSO PROJETO
+ 
+COMANDOS:
+
+PRIMEIRO PASSO: VER SE TEM ALGUM AUTOR CONFIGURADO NO GIT:
+execute:
+git config --global user.name
+git config --global user.email
+
+ALTERAR AUTOR:
+git config --global user.name "Márcio Ferreira"
+git config --global user.email "profhaeliomarcio@gmail.com"
