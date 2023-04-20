@@ -1,0 +1,49 @@
+git push -u origin main
+git pull
+
+git clone https://github.com/hmgferreira/site_html5_fs1
+
+git config --global user.name "Wanderson Barbosa"
+git config --global user.email "wandinho89@hotmail.com"
+
+
+
+git add .
+git status
+git commit -m "Alteracao de Titulo"
+git push -u origin main
+
+
+CRIANDO UMA BRANCH
+
+git checkout -b nome_da_branch
+git checkout -b marcio
+
+COMANDO PARA SABER QUE BRANCH ESTOU
+
+git branch
+
+COMAND PARA MUDAR DE BRANCH
+git checkout nome_branch
+
+SUBINDO ARQUIVOS PARA A BRANCH NOVA
+git add .
+git commit -m "Comentario"
+git push -u origin nome_da_branch
+
+
+git pull
+git branch
+git checkout marcio
+git checkout main
+
+
+EXERCICIO
+1. git checkout -b seu_nome
+2. TROCA O NOME DO TITULO PARA SEU NOME
+3. git add .
+git commit -m "TItulo"cl
+git push -u origin seu_nome
+
+-- COMANDO PARA MESCLAR AS BRANCHS
+git merge sua_branch
