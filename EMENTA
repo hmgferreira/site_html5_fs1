@@ -32,7 +32,7 @@ git push -u origin main
 
 COMANDOS PARA PROJETOS EXISTENTES
 
-git add .
+git add .blo
 git status
 git commit -m "Comentário"
 git push -u origin main
